@@ -3,7 +3,7 @@
 
 文件名：Example
 
-##主要调用了SideMenu提供接口的类：MainViewController
+## 主要调用了SideMenu提供接口的类：MainViewController
 该类主要控制了如下场景，是该示例中调节菜单各种显示模式的一个设置界面。
 
 
