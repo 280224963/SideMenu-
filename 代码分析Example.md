@@ -7,7 +7,7 @@
  该示例展示了SideMenu的使用方法：倒入SideMenu包，通过更改SideMenuManager.default参数来调节SideMenu显示效果。
  本示例可以显示SideMenu中各种效果，主要通过如下设置界面来更改不同部分的设置。
 
-主要使用了SideMenu的类：MainViewController
+# 主要使用了SideMenu的类：MainViewController
 
 
 该类主要控制了如下场景，是该示例中调节菜单各种显示模式的一个设置界面。
