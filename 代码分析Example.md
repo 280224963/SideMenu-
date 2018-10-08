@@ -20,7 +20,8 @@
 ![kbelogo1](https://github.com/280224963/SideMenu-/blob/master/picture/Example_6.png)
 * shrinkFactorSlider 对应下图滑块控制条
 ![kbelogo1](https://github.com/280224963/SideMenu-/blob/master/picture/Example_7.png)
-* blackOutStatusBar  对应下图开关
+* blackOutStatusBar 对应下图开关
+
 ![kbelogo1](https://github.com/280224963/SideMenu-/blob/master/picture/Example_8.png)
 
 
