@@ -1,9 +1,6 @@
 # Example部分代码分析
-软件体系结构
 
-文件名：Example
-
-## 主要调用了SideMenu提供接口的类：MainViewController
+主要调用了SideMenu提供接口的类：MainViewController
 该类主要控制了如下场景，是该示例中调节菜单各种显示模式的一个设置界面。
 
 
@@ -28,7 +25,7 @@
 
 
 
-变量：
+### 变量
 presentModeSegmentedControl 对应下图分段控制按钮
 
 blurSegmentControl 对应下图分段控制按钮
@@ -43,7 +40,8 @@ shrinkFactorSlider 对应下图滑块控制条
 blackOutStatusBar  对应下图开关
 
 
-函数：
+
+### 函数：
 viewDidLoad()
 初始化视图
 
