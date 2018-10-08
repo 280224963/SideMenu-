@@ -6,6 +6,9 @@
  该示例展示了SideMenu的使用方法：倒入SideMenu包，通过更改SideMenuManager.default参数来调节SideMenu显示效果。
  本示例可以显示SideMenu中各种效果，只要在设置界面修改不同选项即可。
 
+     
+         
+         
 # 主要使用了SideMenu的类：MainViewController
 
 
@@ -80,5 +83,13 @@
 * changeSwitch(_ switchControl: UISwitch)
      设置menuFadeStatusBar的初始值为打开
      
-     
- # 调用了SideMenu的类：SideMenuTableViewController
+          
+             
+    
+# 调用了SideMenu的类：SideMenuTableViewController
+
+## 函数：
+
+* viewWillAppear(_ animated: Bool)
+
+* tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell
