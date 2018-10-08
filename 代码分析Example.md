@@ -71,3 +71,4 @@
 
 ** changeSwitch(_ switchControl: UISwitch)
 设置menuFadeStatusBar的初始值为打开
+
