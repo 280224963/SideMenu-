@@ -57,8 +57,8 @@
 
 * changeSegment(_ segmentControl: UISegmentedControl)
      为分段控制按钮添加功能
-
-     主要是利用SideMenuManager提供的接口设置了菜单显示的四个参数
+     
+     通过将segmentControl传入的值赋给‘SideMenuManager.default.xxx’，设置了菜单显示的四个参数。
 
      · 点击Mune Present Mode按钮，把菜单显示的默认值设为选中的模式，有menuSlideIn, viewSlideOut, viewSlideInOut, menuDissolveIn四种样式
 
@@ -67,8 +67,8 @@
 
 * changeSlider(_ slider: UISlider)
      为滑块控制条添加功能
-
-     主要是利用SideMenuManager提供的接口设置了菜单显示的四个参数。
+     
+     通过将slider传入的值赋给‘SideMenuManager.default.xxx’，设置了菜单显示的四个参数。
 
      · darknessSlider：对应Menu Fade Strength，调节菜单显示的亮度。
 
