@@ -9,6 +9,8 @@
 
 ## 变量
 * presentModeSegmentedControl 对应下图分段控制按钮
+<a name="fig1"><div align=center>![Figure 1](https://github.com/280224963/SideMenu-/blob/master/picture/Example_2.png)</div></a>
+
 ![kbelogo1](https://github.com/280224963/SideMenu-/blob/master/picture/Example_2.png)
 * blurSegmentControl 对应下图分段控制按钮
 ![kbelogo1](https://github.com/280224963/SideMenu-/blob/master/picture/Example_3.png)
