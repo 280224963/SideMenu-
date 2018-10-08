@@ -2,10 +2,9 @@
 
 ![kbelogo1](https://github.com/280224963/SideMenu-/blob/master/picture/Example_.png)
 
- 示例概述：
  
  该示例展示了SideMenu的使用方法：倒入SideMenu包，通过更改SideMenuManager.default参数来调节SideMenu显示效果。
- 本示例可以显示SideMenu中各种效果，主要通过如下设置界面来更改不同部分的设置。
+ 本示例可以显示SideMenu中各种效果，只要在设置界面修改不同选项即可。
 
 # 主要使用了SideMenu的类：MainViewController
 
