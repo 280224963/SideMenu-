@@ -9,18 +9,19 @@
 
 ## 变量
 * presentModeSegmentedControl 对应下图分段控制按钮
-
+![kbelogo1](https://github.com/280224963/SideMenu-/blob/master/picture/Example_2.png)
 * blurSegmentControl 对应下图分段控制按钮
-
+![kbelogo1](https://github.com/280224963/SideMenu-/blob/master/picture/Example_3.png)
 * darknessSlider 对应下图滑块控制条
-
+![kbelogo1](https://github.com/280224963/SideMenu-/blob/master/picture/Example_4.png)
 * shadowOpacitySlider 对应下图滑块控制条
-
+![kbelogo1](https://github.com/280224963/SideMenu-/blob/master/picture/Example_5.png)
 * screenWidthSlider 对应下图滑块控制条
+![kbelogo1](https://github.com/280224963/SideMenu-/blob/master/picture/Example_6.png)
 * shrinkFactorSlider 对应下图滑块控制条
-
+![kbelogo1](https://github.com/280224963/SideMenu-/blob/master/picture/Example_7.png)
 * blackOutStatusBar  对应下图开关
-
+![kbelogo1](https://github.com/280224963/SideMenu-/blob/master/picture/Example_8.png)
 
 
 ## 函数：
