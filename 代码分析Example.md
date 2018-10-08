@@ -88,6 +88,8 @@
     
 # 调用了SideMenu的类：SideMenuTableViewController
 
+载入了Example的场景。
+
 ## 函数：
 
 * viewWillAppear(_ animated: Bool)
