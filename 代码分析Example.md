@@ -13,11 +13,6 @@
 
 ![kbelogo1](https://github.com/280224963/SideMenu-/blob/master/picture/Example_1.png)
 
-
-
-
-
-     
        
 ## 变量
 * presentModeSegmentedControl 对应下图分段控制按钮
@@ -84,3 +79,6 @@
 
 * changeSwitch(_ switchControl: UISwitch)
      设置menuFadeStatusBar的初始值为打开
+     
+     
+ # 调用了SideMenu的类：SideMenuTableViewController
