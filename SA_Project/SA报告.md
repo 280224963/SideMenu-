@@ -13,6 +13,7 @@ SlideMenu
 - [Introduction](#introduction)
 - [Stakeholders](#stakeholders)
 - [Context view](#context-view)
+- [Use case view](#use-case-view)
 - [Logic view](#logic-view)
 - [Development view](#development-view)
 - [Conclusion](#conclusion)
@@ -77,7 +78,22 @@ In the stakeholder analysis, many different actors with different roles, power a
 
 ## Context view
 
-...
+![context_view](https://github.com/280224963/SideMenu-/blob/master/picture/context_view.png)
+
+Figure 2: context view of SlideMenu
+
+- External Module：that is the app which use SideMenu 
+- Internal Module：this is the SideMenu frame, in this module it shows how SideMenu is implemented
+- CocosPods: CocoaPods is a third class library management tool for OS X and iOS. With the CocoaPods tool, we can add a dependency library called "Pods" to the project and easily manage its version.
+- Third Class: this is SideMenu dependency library
+(to be continued)
+
+## Use case view
+![use_case](https://github.com/280224963/SideMenu-/blob/master/picture/use_case1.png)
+
+![use_case](https://github.com/280224963/SideMenu-/blob/master/picture/use_case2.png)
+
+Figure 2: use case view of SlideMenu
 
 ## Logic view
 
