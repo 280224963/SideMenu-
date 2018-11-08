@@ -1,13 +1,9 @@
 SlideMenu 
 ========== 
 
-
-
--------------
-
 ## Abstract
 
-Monogame is a cross-platform, hardware accelerated API providing graphics, audio, game state management, input, and a content pipeline for importing assets. Unlike most game engines, monogame does not provide or impose any pattern or project structure. While this means that developers are free to organize their code as they like, it also means that a bit of setup code is needed when first starting a new project. The open source project started from 2009, created by an active member of the XNA community with the goal of porting simple 2D XNA games to mobile devices. In early 2014 stewardship of the MonoGame project was handed off to Tom Spilman and Steve Williams who currently lead the project. Now it contains 11,910 commits, has released 13 times and 251 different contributors have helped to perfect the monogame. By using MonoGame and targeting the UWP platform you’ll be able to create 2d and 3d games for hundreds of millions of Windows 10 PCs and the whole Xbox One family, including the upcoming Project Scorpio. This	chapter	studies Monogame	by	looking	at	its	architecture,	and	by	looking	at	the	system	through	different viewpoints	and	perspectives.
+(待完成
 
 
 ## Table of contents
@@ -21,4 +17,26 @@ Monogame is a cross-platform, hardware accelerated API providing graphics, audio
 
 ## Introduction
 
-#### 1.What is the monogame
+#### 1.What is the SlideMenu
+SlideMenu is an open source implementation of a sliding menu animation effect posted on Github. Developing an ios application often involves designing side menus. SideMenu is a simple and versatile side menu control written in Swift. There are numerous Slide Menu control available on the Internet, this one is more likely be included in apple application. After importing the SideMenu package, developers don't need to write a lot of custom code, just a simple interface call, you can achieve a vivid animation sliding effect. The SlideMenu is based on Swift 4.2 and uses Xcode 10 and needs to run on iOS 10 or higher.
+
+#### 2.History
+
+#### 3.Preview Samples
+
+## StakeHolders
+We will describe a number of different types of stakeholders exist as defined by Rozanski & Woods [1] and relate our views of the classes in relation to the SlideMenu project. 
+- Developers: Jon kent
+- Test and integration staff: Jon kent and Github.
+- Users：ios application developers
+> The major user of SlideMenu is individual developers. Their concrete names are hard to find.
+
+ Stakeholders | Description
+ ----|----
+ Developer | Jon kent
+ Test and integration staff | Jon kent and github
+ User	| ios application developers
+ Ultimate user |	app users
+ competitors |	-
+ 
+
