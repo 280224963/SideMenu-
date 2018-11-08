@@ -1,6 +1,9 @@
 SlideMenu 
 ========== 
 
+![temporary_logo](https://github.com/280224963/SideMenu-/blob/master/picture/temporary_logo.png)
+-------------
+
 ## Abstract
 
 (待完成
@@ -21,7 +24,9 @@ SlideMenu
 SlideMenu is an open source implementation of a sliding menu animation effect posted on Github. Developing an ios application often involves designing side menus. SideMenu is a simple and versatile side menu control written in Swift. There are numerous Slide Menu control available on the Internet, this one is more likely be included in apple application. After importing the SideMenu package, developers don't need to write a lot of custom code, just a simple interface call, you can achieve a vivid animation sliding effect. The SlideMenu is based on Swift 4.2 and uses Xcode 10 and needs to run on iOS 10 or higher.
 
 #### 2.History
-(添加图片
+
+![history](https://github.com/280224963/SideMenu-/blob/master/picture/history.png)
+
 #### 3.Preview Samples
 | Slide Out | Slide In | Dissolve | Slide In + Out |
 | --- | --- | --- | --- |
