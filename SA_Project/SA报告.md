@@ -21,7 +21,12 @@ SlideMenu
 ## Introduction
 
 #### 1.What is the SlideMenu
-SlideMenu is an open source implementation of a sliding menu animation effect posted on Github. Developing an ios application often involves designing side menus. SideMenu is a simple and versatile side menu control written in Swift. There are numerous Slide Menu control available on the Internet, this one is more likely be included in apple application. After importing the SideMenu package, developers don't need to write a lot of custom code, just a simple interface call, you can achieve a vivid animation sliding effect. The SlideMenu is based on Swift 4.2 and uses Xcode 10 and needs to run on iOS 10 or higher.
+SlideMenu is an open source implementation of a sliding menu animation effect posted on Github. 
+Developing an ios application often involves designing side menus. SideMenu is a simple and versatile side menu control written in Swift. 
+There are numerous Slide Menu control available on the Internet, this one is more likely be included in apple application. 
+SideMenu is practically a frame that helps to switch from one scene to another scene by touching a button or sliding left or right.
+After importing the SideMenu package, developers don't need to write a lot of custom code, just a simple interface call, you can achieve a vivid animation sliding effect. 
+The SlideMenu is based on Swift 4.2 and uses Xcode 10 and needs to run on iOS 10 or higher.
 
 #### 2.History
 
