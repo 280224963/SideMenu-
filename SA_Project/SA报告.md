@@ -38,6 +38,7 @@ We will describe a number of different types of stakeholders exist as defined by
 - Test and integration staff: Jon kent and Github.
 - Users：ios application developers
 > The major user of SlideMenu is individual developers. Their concrete names are hard to find.
+- Ultimate user: app users
   
     
       
@@ -60,9 +61,12 @@ We will describe a number of different types of stakeholders exist as defined by
  
  Table2:Most active contributors in terms of number of commits
 
-The stakeholders are visualized in Table1 and Table 2, their respective power and interest in the SlideMenu project are shown in Figure 3.
+The stakeholders are visualized in Table1 and Table 2, their respective power and interest in the SlideMenu project are shown in Figure 1.
 
-（添加图片
+![power_interest](https://github.com/280224963/SideMenu-/blob/master/picture/power_interest.png)
+
+Figure 1: Power-Interest grid for the stakeholders of SlideMenu
+
 （分析
 
 
