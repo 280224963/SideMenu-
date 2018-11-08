@@ -30,7 +30,9 @@ We will describe a number of different types of stakeholders exist as defined by
 - Test and integration staff: Jon kent and Github.
 - Users：ios application developers
 > The major user of SlideMenu is individual developers. Their concrete names are hard to find.
-
+  
+    
+      
  Stakeholders | Description
  ----|----
  Developer | Jon kent
@@ -38,5 +40,11 @@ We will describe a number of different types of stakeholders exist as defined by
  User	| ios application developers
  Ultimate user |	app users
  competitors |	-
+ Table 1: Stakeholders of the SlideMenu project
  
-
+ Contributor | Commits | LOC++ | LOC-- | Active during 
+ ----|----|----|----|----
+ Jon Kent | 339 | 12,402 | 7,004 | 2015-present
+ Aron Geczy Gates | 13 | 208 | 130 | 2016-2017
+ Soheil | 5 | 3,503 | 4,841 | 2016
+ ... | | | |
