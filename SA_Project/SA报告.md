@@ -23,7 +23,9 @@ SlideMenu is an open source implementation of a sliding menu animation effect po
 #### 2.History
 (添加图片
 #### 3.Preview Samples
-（添加动画
+| Slide Out | Slide In | Dissolve | Slide In + Out |
+| --- | --- | --- | --- |
+| ![](https://raw.githubusercontent.com/jonkykong/SideMenu/master/etc/SlideOut.gif) | ![](https://raw.githubusercontent.com/jonkykong/SideMenu/master/etc/SlideIn.gif) | ![](https://raw.githubusercontent.com/jonkykong/SideMenu/master/etc/Dissolve.gif) | ![](https://raw.githubusercontent.com/jonkykong/SideMenu/master/etc/InOut.gif) |
 
 ## StakeHolders
 We will describe a number of different types of stakeholders exist as defined by Rozanski & Woods [1] and relate our views of the classes in relation to the SlideMenu project. 
