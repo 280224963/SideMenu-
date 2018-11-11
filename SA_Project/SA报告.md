@@ -78,6 +78,11 @@ In the stakeholder analysis, many different actors with different roles, power a
 
 ## Context view
 
+Context View gives a bief explanation about the system. Usually, a context view describes the relationships, dependencies, and the interactions between the system and its environment. This view is relevant for the system's architecture and defines
+the boundaries of the system and how it interacts with external entities across these boundaries. Besides, it will also show you on which system the app runs on.
+
+
+
 ![context_view](https://github.com/280224963/SideMenu-/blob/master/picture/context_view.png)
 
 Figure 2: context view of SlideMenu
