@@ -87,11 +87,11 @@ the boundaries of the system and how it interacts with external entities across 
 
 Figure 2: context view of SlideMenu
 
-- External Module：that is the app which use SideMenu 
-- Internal Module：this is the SideMenu frame, in this module it shows how SideMenu is implemented
-- CocosPods: CocoaPods is a third class library management tool for OS X and iOS. With the CocoaPods tool, we can add a dependency library called "Pods" to the project and easily manage its version.
-- Third Class: this is SideMenu dependency library
-(to be continued)
+From the above figure, we can easily know about the eviroment.
+SideMenu is mainly developed by Jon Kent and Sohei.B.Marvasti. 
+This is licensed by MIT, so if you want to know something more about this you can go MIT to learn.
+It is implemented by Swift. So if you want use SideMenu in your own app you have to run it on IOS X and above.
+Xcode also needs to be 9. It use Cocospods and Carthage to help manage the dependency library. You can use git to learn the source code and chat with the developer. And it is mainly developed for personal users. It can be a good choice if you want SideMenu in your small app. This can also be a good learning resource for students
 
 ## Use case view
 ![use_case](https://github.com/280224963/SideMenu-/blob/master/picture/use_case1.png)
