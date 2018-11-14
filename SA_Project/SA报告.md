@@ -17,6 +17,7 @@ SlideMenu
 - [Logic view](#logic-view)
 - [Development view](#development-view)
 - [Evolution perspective](#evolution-perspective)
+- [Technical Debt](#Technical-Debt)
 - [Conclusion](#conclusion)
 - [Reference](#reference)
 
@@ -112,7 +113,12 @@ Figure 2: use case view of SlideMenu
 ## Evolution Perspective
 
 
+## Technical Debt
 
+#### 1.Definition
+Technical debt is a well-known concept that was introduced in 1992 by Ward Cunningham (founder of the wiki), who talked about this topic in a recent video. Since then, this topic has been discussed and studied countless times in blogs and articles. Martin Fowler gives a point of view through metaphor:
+
+In this metaphor, we set up a technical debt through a temporary emergency, which is similar to economic debt. Just like economic debt, technical debt is also subject to interest. It exists in our future development. Because we choose temporary emergency measures, at some point, we will pay some form of extra cost. We can choose to continue to pay interest, or we can choose to repay the principal and reconcile the principal to get a better design. Although it paid off the principal on the spot, it allowed us to reduce interest payments in the future.
 
 
 ## Conclusion
