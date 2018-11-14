@@ -12,6 +12,7 @@ SlideMenu
 ## Table of contents
 - [Introduction](#introduction)
 - [Stakeholders](#stakeholders)
+- [Evolution Perspective](#evolution Perspective)
 - [Context view](#context-view)
 - [Use case view](#use-case-view)
 - [Logic view](#logic-view)
@@ -74,6 +75,15 @@ The stakeholders are visualized in Table1 and Table 2, their respective power an
 Figure 1: Power-Interest grid for the stakeholders of SlideMenu
 
 In the stakeholder analysis, many different actors with different roles, power and interest have been analyzed and visualized in Figure 1. Since SlideMenu is a personal developed control unit,The main stakeholder of SlideMenu is the developer Jon Kent who has the most power and interest in the platform. Since SlideMenu is built upon Swift and Xcode, these programming languages can be seen as more powerful actors than other suppliers, having very little interest. The developers, testers and maintainers can be placed in the middle of the spectrum, all with some power and interest.
+
+
+## Evolution Perspective
+
+
+
+
+
+
 
 
 ## Context view
