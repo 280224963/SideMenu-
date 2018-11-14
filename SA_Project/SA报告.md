@@ -114,19 +114,18 @@ Figure 2: use case view of SlideMenu
 The evolution perspective deals with concerns related to evolution during the lifetime of a system, it focuses on identifying the ability to be flexible in the face of inevitable change. As discussed by Rozanski and Woods, a flexible system should be able to deal with all possible types of changes that it may experience during its lifetime [1]. Therefore, the changes throughout the lifetime of the project are analyzed, and the mechanisms in place to provide flexibility are discussed. Although only few change occur in the SlideMenu, this is still closely relevant to it.
 
 Thought out the years, SlideMenu has evolved a lot. At this moment SlideMenu has 28 releases, which started with release 2.0.7 in December 2015 and the latest release 5.0.3 in November 2018. However the real first a few release can't be found on the Github repository
-anymore. This is probably because it was an alpha version and can not be put into use well. In order to understand the changes in the various releases, the release notes have been analyzed. These were found on the SlideMenu release page on Github [3].
+anymore. This is probably because it was an alpha version and can not be put into use well. In order to understand the changes in the various releases, the release notes have been analyzed. These were found on the SlideMenu release page on Github.
 
 SlideMenu updates their current version number according to the semantic versioning convention. SlideMenu releases can be categorized into two main categories: major updates that symbolize a new backwards compatibility baseline, and new versions containing novel features and bug fixes.
 
-The first type has occurred five times in the history of SlideMenu. The latter on the other
-hand, has an average frequency between 2-3 weeks.
-
+The first type has occurred five times in the history of SlideMenu. The latter on the other hand, has an average frequency between 2-3 weeks.
 
 (pic)
 Figure [[x]] gives an overview of SlideMenu and mentions the changes with the largest magnitude of change.
 
+…(正文)
 
-…
+
 Nowadays, the most recent stable release version of SlideMenu (as of 11-6-2018) is version 5.0.7, and it seems that the developer Jon Kent haven’t planned for the next version.
 
 
