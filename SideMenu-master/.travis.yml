@@ -11,3 +11,9 @@ language: objective-c
 script:
 - set -o pipefail && xcodebuild test -workspace SideMenu.xcworkspace -scheme Example -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO | xcpretty
 - pod lib lint
+language: swift # or objective-c
+osx_image: xcode7
+script:
+  - xcodebuild -scheme SwiftExample -workspace SwiftExample.xcworkspace -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 6S,OS=9.1' build test
+after_success:
+  - bash <(curl -s https://codecov.io/bash)
