@@ -1,10 +1,10 @@
-## 2.1.3
+#### 2.1.3
   Update podspec and README for Cocoapods.
   Cleaner version of logic proposed by @saltyskip.
   adding possibility of tab bar or nav bar
   make tab bar controller
 
-#### '2.1.4':
+#### 2.1.4
   Silence warning.
   Update README for Cocoapods.
   Update podspec.
@@ -12,13 +12,15 @@
   Update to Launch Screen.
   Say “SideMenu” instead of “Example” in demo project.
   
-#### '2.1.5':
+#### 2.1.5
   Update README for Cocoapods.
   Update pod spec.
   Refactoring.
   Second fix for multiple gestures actuating and causing problem.
-Merge tag '2.2.0'
-* tag '2.2.0': (23 commits)
+  
+*2.1.x总结* i.更新各种使用说明 ii.解决手势问题 iii.精简优化代码
+
+#### tag 2.2.0
   Remove unused variable.
   Update README for Cocoapods.
   Update podspec.
@@ -39,9 +41,10 @@ Merge tag '2.2.0'
   removed menuTab option and set default action to always hide SideMenu when transitioning to new view. Refactored menuPreserveViewOnPush to match syntax and efficiency
   implemented changed to menuPreserveViewOnPush filter, now instead matching syntax with type(of: )
   last indentation fix
-  …
-Merge tag '2.3.0'
-* tag '2.3.0':
+  
+*2.2.x总结*  i.更新说明ii.提升代码效率&逻辑iii.修改了一些ui上的不足
+
+#### 2.3.0
   Updated README and podspec.
   Fix for tapView to not be sized to main screen which may be transformed and therefor hard to touch.
   Support for in-call status bar height change.
@@ -53,28 +56,26 @@ Merge tag '2.3.0'
   Fix for keyboard animations being confused during SideMenu display.
   Updated documentation.
   Fix deprecation warnings in swift 3.1
-Merge tag '2.3.1'
-* tag '2.3.1':
+
+#### 2.3.1
   Updated pod spec and README for Cocoapods.
   Updated project settings.
   Reverting old logic that kept the layout correct when presenting a sub-screen.
   Subtle tweak if a larger transform is used on the main view controller when menu is presented (edge case).
   Fix for disabling gestures. Gestures were being added multiple times preventing all of them from being disabled when the menuEnableSwipeGestures was used.
-Merge tag '2.3.2'
-* tag '2.3.2':
+
+#### 2.3.2
   README edit.
   Updated podspec and README for cocoa pods.
 
 Updated README for Github.
 
-Merge tag '2.3.3'
-* tag '2.3.3':
+#### 2.3.3
   Updated podspec and README.
   Added menuDismissOnPush property.
   Fix for single menu setups losing ability to swipe menu if wrong side is swiped.
 
-Merge tag '2.3.4'
-* tag '2.3.4':
+#### 2.3.4
   Updated README and podspec.
   Added comment.
   Changed menuAnimationCompleteGestureDuration default.
@@ -90,24 +91,26 @@ Merge tag '2.3.4'
   Add missing designated initialiser to UITableViewVibrantCell
   Set right menu width equal half of left menu width in example
   Add supporting of different left and right menu width
+  
+*2.3.x总结*  i.优化了对屏幕尺寸的自适应ii.优化了动画效果iii.更新了说明
 
-Merge tag '3.0.0'
-* tag '3.0.0':
+
+#### 3.0.0
   Updated podspec.
   Additional Swift4 support updates.
   Fix for Swift 4 and version 2.3.4
 
-Merge tag '3.0.1'
-* tag '3.0.1':
+#### 3.0.1
   Updated podspec.
   Fixed hack to more specific logic.
 
-Merge tag '3.0.2'
-* tag '3.0.2':
+#### 3.0.2
   Updated podspec and README for cocoapods.
   Corrected logic for default menu width.
-Merge tag '3.1'
-* tag '3.1':
+  
+*3.0.x总结* i.升级以支持swift4ii.更新了说明
+  
+#### 3.1
   Updated README for Cocoapods.
   Updated podspec.
   Update README.md
@@ -122,15 +125,13 @@ Merge tag '3.1'
   Fix for menuDismissOnPush as it was incorrectly applied.
   Fix for regression on enums to objective-C.
 
-Merge tag '3.1.1'
-* tag '3.1.1':
+#### 3.1.1
   Updated podspec.
   Update README for Cocoapods.
   README correction.
   Better logic for managing UISideMenuNavigationController properties across interface builder and programmatic instantiations.
 
-Merge tag '3.1.2'
-* tag '3.1.2':
+#### 3.1.2
   Updated podspec.
   Updated README.
   Allow for specifying the sideMenuDelegate, otherwise it discovers it automatically.
@@ -138,20 +139,17 @@ Merge tag '3.1.2'
   Override of navigation controller default init to prevent new developers from seeing black menus.
   It should be possible now to have the menu slide out even if pushing the new view is not animated itself (animating both can look a bit weird when relying on 'animated' only)
 
-Merge tag '3.1.3'
-* tag '3.1.3':
+#### 3.1.3
   Update README for cocoapods.
   Updated podspec.
   Updated README.
 
-Merge tag '3.1.4'
-* tag '3.1.4':
+#### 3.1.4
   Update README for Cocoapods.
   Updated podspec.
   Fixed SideMenu.UISideMenuNavigationController crash on init(nibName:bundle:)
 
-Merge tag '3.1.5'
-* tag '3.1.5':
+#### 3.1.5
   Updated README requirements.
   Updated README for Cocoapods.
   Exposed defaultManager for Objective-C support.
@@ -159,8 +157,7 @@ Merge tag '3.1.5'
   Additional changes for objective-C support in UISideMenuNavigationController
   fix objc inference in swift 4
 
-Merge tag '3.1.7'
-* tag '3.1.7':
+#### 3.1.7
   Refactor.
   Refactor.
   Updated example storyboard.
@@ -169,27 +166,30 @@ Merge tag '3.1.7'
   optimize check
   add nil check
   Fixed func hideMenuStart() to avoid problems when mainViewController is released at hideMenuComplete() func
-Merge tag '4.0.0'
-* tag '4.0.0':
+  
+*3.1.x总结* i.升级以支持swift4 ii.更新了说明 iii.支持objective-Civ.修改函数的bug
+
+#### 4.0.0
   Updated README and podspec.
   minor change to be compliant with swift 4.1
-Refactoring + Merge branch 'pr/399' into 5.0.0
-* pr/399:
+  
+*4.0.x总结*  i.升级以支持swift4.1 ii.更新了说明
+
+#### 5.0.0
   feat: update swift version for all sub-projects (example,  pod, etc) to 4.2
   feat: update pod swift version to 4.2
   feat: update support for swift 4.2 (source and example)
 
-# Conflicts:
-#	Pod/Classes/SideMenuManager.swift
-Merge tag '5.0.1'
-* tag '5.0.1':
+#### 5.0.1
   Updated podspec.
   Update README for Cocoapods.
   Fixes to fully upgrade to Swift 4.2 as it appears to have been incomplete.
-Merge branch 'pr/412' into 5.0.2
-* pr/412:
+  
+#### 5.0.2
   Refactor
   fix: makes dismissWhenInBackground to be computed property of SideMenuManager
   Adds mainViewController.view to originalSuperview only if dismissWhenInBackground is true
   Prevents fadeout transition if 'dismissWhenInBackground' is set to false
   Adds ability to toggle automatic dismissal of the menu when app goes to the background
+  
+*5.0.x总结*  i.升级以支持swift4.2 ii.更新了说明 iii.修复了函数的功能
