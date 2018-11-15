@@ -126,7 +126,7 @@ Figure [[x]] gives an overview of SlideMenu and mentions the changes with the la
 …(正文)
 
 
-Nowadays, the most recent stable release version of SlideMenu (as of 11-6-2018) is version 5.0.7, and it seems that the developer Jon Kent haven’t planned for the next version.
+Nowadays, the most recent stable release version of SlideMenu (as of 11-6-2018) is version 5.0.7, and as a personal developer, it seems that Jon Kent hasn’t planned for the next version if no major bugs are found.
 
 
 ## Technical Debt
