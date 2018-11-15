@@ -1,2 +1,1 @@
-
-the picture used in this project
+# the picture used in this project
