@@ -71,7 +71,7 @@ We will describe a number of different types of stakeholders exist as defined by
 
 The stakeholders are visualized in Table1 and Table 2, their respective power and interest in the SlideMenu project are shown in Figure 1.
 
-![power_interest](https://github.com/280224963/SideMenu-/blob/master/picture/power_interest.png)
+![power_interest](https://github.com/280224963/SideMenu-/blob/master/picture/power_interest_pic.png)
 
 Figure 1: Power-Interest grid for the stakeholders of SlideMenu
 
