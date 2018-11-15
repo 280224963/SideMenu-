@@ -1,20 +1,18 @@
-# Merge tag '2.1.3'
-
-  tag '2.1.3':
+#### '2.1.3'
   Update podspec and README for Cocoapods.
   Cleaner version of logic proposed by @saltyskip.
   adding possibility of tab bar or nav bar
   make tab bar controller
-Merge tag '2.1.4'
-* tag '2.1.4':
+
+#### '2.1.4':
   Silence warning.
   Update README for Cocoapods.
   Update podspec.
   Fix for multiple gestures causing crashes when presenting or dismissing menu. SideMenuTransition is due for a refactoring of logic to simplify that I don’t have time for now.
   Update to Launch Screen.
   Say “SideMenu” instead of “Example” in demo project.
-Merge tag '2.1.5'
-* tag '2.1.5':
+  
+#### '2.1.5':
   Update README for Cocoapods.
   Update pod spec.
   Refactoring.
