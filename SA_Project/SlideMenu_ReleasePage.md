@@ -192,4 +192,4 @@ Updated README for Github.
   Prevents fadeout transition if 'dismissWhenInBackground' is set to false
   Adds ability to toggle automatic dismissal of the menu when app goes to the background
   
-#### 5.0.x总结 i.升级以支持swift4.2 ii.更新了说明 iii.修复了函数的功能
+#### 5.0.x总结 i.升级以支持swift4.2 ii.更新了说明 iii.完善了一些效果的函数
