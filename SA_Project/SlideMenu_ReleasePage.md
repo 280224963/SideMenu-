@@ -1,4 +1,4 @@
-#### '2.1.3'
+## 2.1.3
   Update podspec and README for Cocoapods.
   Cleaner version of logic proposed by @saltyskip.
   adding possibility of tab bar or nav bar
