@@ -143,3 +143,4 @@ In this metaphor, we set up a technical debt through a temporary emergency, whic
 ## Reference
 
 1. Nick Rozanski and Eoin Woods. Software Systems Architecture: Working with Stakeholders using Viewpoints and Perspectives. Addison-Wesley, 2012.
+2.https://github.com/jonkykong/SideMenu/releases SlideMenu release page.(2018).
