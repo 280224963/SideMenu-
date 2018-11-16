@@ -120,7 +120,7 @@ SlideMenu updates their current version number according to the semantic version
 
 The first type has occurred five times in the history of SlideMenu. The latter on the other hand, has an average frequency between 2-3 weeks.
 
-![ep_release](https://github.com/280224963/SideMenu-/blob/master/picture/ep_release.png)
+![ep_Release](https://github.com/280224963/SideMenu-/blob/master/picture/ep_Release.png)
 Figure4: gives an overview of SlideMenu and mentions the changes with the largest magnitude of change.
 
 …(正文)
