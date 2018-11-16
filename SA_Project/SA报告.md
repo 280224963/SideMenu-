@@ -137,14 +137,14 @@ This section has also been extensively modified to achieve smoother, higher qual
 #### Language: 
 Constantly upgraded to accommodate the new version of the swift language, as well as support for calling SlideMenu with Objective-C.
 
-#### Use improvement：
-Jon kent has put a lot of effort into making the use of SlideMenu easier and more convenient, `SideMenuManager.default` serves as the primary instance as most projects will only need one menu across all screens. If you need to show a different SideMenu, such as from a modal view controller presented from a previous SideMenu, do the following:
-1. Declare a variable containing your custom `SideMenuManager` instance. You may want it to define it globally and configure it in your app delegate if menus will be used on multiple screens.
+#### Use experience improvement：
+Jon kent has put a lot of effort into making the use of SlideMenu easier and more convenient, `SideMenuManager.default` serves as the primary instance as most projects will only need one menu across all screens. User can show a different SideMenu, such as from a modal view controller presented from a previous SideMenu, just by doing the following:
+1. Declare a variable containing the custom `SideMenuManager` instance. If one wants it to define it globally and configure it in his app delegate if menus will be used on multiple screens.
 ``` swift
 let customSideMenuManager = SideMenuManager()
 ```
-2. Setup and display menus with your custom instance the same as you would with the  `SideMenuManager.default` instance.
-3. If using Storyboards, subclass your instance of `UISideMenuNavigationController` and set its `sideMenuManager` property to your custom instance. This must be done before `viewDidLoad` is called:
+2. Setup and display menus with custom instance the same as one would with the  `SideMenuManager.default` instance.
+3. If using Storyboards, subclass the instance of `UISideMenuNavigationController` and set its `sideMenuManager` property to the custom instance. This must be done before `viewDidLoad` is called:
 ``` swift
 class MySideMenuNavigationController: UISideMenuNavigationController {
 
@@ -158,7 +158,7 @@ class MySideMenuNavigationController: UISideMenuNavigationController {
 
 }
 ```
-Alternatively, you can set  `sideMenuManager` from the view controller that segues to your UISideMenuNavigationController:
+Alternatively, users can set  `sideMenuManager` from the view controller that segues to their UISideMenuNavigationController:
 ``` swift
 override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
     if let sideMenuNavigationController = segue.destination as? UISideMenuNavigationController {
