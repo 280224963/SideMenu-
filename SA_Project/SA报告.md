@@ -100,7 +100,7 @@ Xcode also needs to be 9. It use Cocospods and Carthage to help manage the depen
 
 ![use_case](https://github.com/280224963/SideMenu-/blob/master/picture/use_case2.png)
 
-Figure 2: use case view of SlideMenu
+Figure 3: use case view of SlideMenu
 
 ## Logic view
 
@@ -120,8 +120,8 @@ SlideMenu updates their current version number according to the semantic version
 
 The first type has occurred five times in the history of SlideMenu. The latter on the other hand, has an average frequency between 2-3 weeks.
 
-(pic)
-Figure [[x]] gives an overview of SlideMenu and mentions the changes with the largest magnitude of change.
+![ep_release](https://github.com/280224963/SideMenu-/blob/master/picture/ep_release.png)
+Figure4: gives an overview of SlideMenu and mentions the changes with the largest magnitude of change.
 
 …(正文)
 
@@ -143,4 +143,5 @@ In this metaphor, we set up a technical debt through a temporary emergency, whic
 ## Reference
 
 1. Nick Rozanski and Eoin Woods. Software Systems Architecture: Working with Stakeholders using Viewpoints and Perspectives. Addison-Wesley, 2012.
+
 2.https://github.com/jonkykong/SideMenu/releases SlideMenu release page.(2018).
