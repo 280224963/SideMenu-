@@ -125,16 +125,16 @@ The first type has occurred five times in the history of SlideMenu. The latter o
 Figure4: gives an overview of SlideMenu and mentions the changes with the largest magnitude of change.
 
 
-####Gesture:
+#### Gesture:
 As a mobile app control, gesture support is crucial. Jon Kent's initial changes focused on improving the support and optimization of various gestures and fixing some bugs that were not noticeable.
 
-####Ui: 
+#### Ui: 
 Although SlideMenu is only about the implementation of the effect, the specific ui design is defined by the user, but Jon Kent still allows for more optimized screen adaptation and some black border problems, making the use of SlideMenu easier.
 
-####Animation: 
+#### Animation: 
 This section has also been extensively modified to achieve smoother, higher quality animations.
 
-####Language: 
+#### Language: 
 Constantly upgraded to accommodate the new version of the swift language, as well as support for calling SlideMenu with Objective-C.
 
 Nowadays, the most recent stable release version of SlideMenu (as of 11-6-2018) is version 5.0.7, and as a personal developer, it seems that Jon Kent hasn’t planned for the next version if no major bugs are found.
