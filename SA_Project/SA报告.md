@@ -132,7 +132,7 @@ As a mobile app control, gesture support is crucial. Jon Kent's initial changes 
 Although SlideMenu is only about the implementation of the effect, the specific ui design is defined by the user, but Jon Kent still allows for more optimized screen adaptation and some black border problems, making the use of SlideMenu easier.
 
 #### Animation: 
-This section has also been extensively modified to achieve smoother, higher quality animations.
+Animation: This part of the optimization is mainly implemented by other developers on github in 2017. Most of the time, the original animation effect is still used. In the optimization, the developer fixed some logic bugs in the animation call, achieving smoother, higher quality animations.
 
 #### Language: 
 SlideMenu is written in the swift language, and this part of the maintenance is basic maintenance. Whenever there is a new version of swift release developer upgrade to accommodate the new version of the swift language. Later upgrade also support for calling SlideMenu with Objective-C.
