@@ -135,7 +135,7 @@ Although SlideMenu is only about the implementation of the effect, the specific 
 This section has also been extensively modified to achieve smoother, higher quality animations.
 
 #### Language: 
-Constantly upgraded to accommodate the new version of the swift language, as well as support for calling SlideMenu with Objective-C.
+SlideMenu is written in the swift language, and this part of the maintenance is basic maintenance. Whenever there is a new version of swift release developer upgrade to accommodate the new version of the swift language. Later upgrade also support for calling SlideMenu with Objective-C.
 
 #### Use experience improvement：
 Jon kent has put a lot of effort into making the use of SlideMenu easier and more convenient, `SideMenuManager.default` serves as the primary instance as most projects will only need one menu across all screens. User can show a different SideMenu, such as from a modal view controller presented from a previous SideMenu, just by doing the following:
