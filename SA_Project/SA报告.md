@@ -210,7 +210,8 @@ Using Error Prone to augment the compiler’s type analysis, you can catch more 
 Although the code style is not as easy to fry as a technical circle, it is not as easy to stand as a programming language or editor, but there are always people who have a unified style to improve work efficiency. If code styles are different, it is not conducive to collaborative programming, the code is also chaotic. As for similar code style, this produce a certain constraint. Functional importance, code style and post-maintenance are also important. As we know, SideMenu can be seen as a private project, It is nearly implemented by one person. SideMenu's code style is not diverse.
 
 ###### Compatibility
-Compatibility refers to the degree of coordination between hardware, software, or a combination of hardware and software. Since SideMenu is implemented in Swift. So unluckily, SideMenu is not for Antroid users. 
+Compatibility refers to the degree of coordination between hardware, software, or a combination of hardware and software. Since SideMenu is implemented in Swift. So unluckily, SideMenu is not for Antroid users. As for IOS user, this is a good choice. But at first, the iOS need to be X or above. You use Xcode to be the compiler and the version should be above 9. When all the requirements are satisfied, you can easily import SideMenu in your project. Obviously, SideMenu just as the figure shown, has good compatibility for IOS user who needs SideMenu.
+
 ###### Unused Code
 
 ###### Performance
