@@ -185,8 +185,25 @@ Use Codacy, we get the following figure. The result is shown below:
 
 ![result_1](https://github.com/280224963/SideMenu-/blob/master/picture/result2.png)
 
+From the figure, the project certification is B. It analyses the project through 3 aspects. They are issues, complex Files and Duplicated code. Issues means the comparison of the number of the issues with the industry average. It gets 90% at this part. In this piece, SideMenu has basically reached the industrial level. Complex Files means a file is over 20. The percentage is about 13%.
+From this data, we can easily know that only a little files are complex. Most of them is simple. Similarly, the project is also a simple project. Duplicated code means a file has at least 1 clone. 26% ， in my opinion， is a little high. The code is reused much. In some way, this phenomenon is not good for a project.
 
+#### 4.Issues Breakdown
 ![result_2](https://github.com/280224963/SideMenu-/blob/master/picture/result1.png)
+
+In this aspect, the project is brokendown in 6 parst. 
+
+###### Security
+
+###### Error Prone
+
+###### Code Style
+
+###### Compatibility
+
+###### Unused Code
+
+###### Performance
 
 
 ## Conclusion
