@@ -194,6 +194,7 @@ From this data, we can easily know that only a little files are complex. Most of
 In this aspect, the project is brokendown in 6 parst. 
 
 ###### Security
+As the Internet penetrates into all walks of life, more and more application systems, websites, etc. are connected and accessed by humans through the Internet. How to ensure that the system and website will not cause security problems such as system crash and data leakage due to malicious attacks by hackers. The most fundamental means to solve this problem is to return to the code. Only the code written is safe and impeccable. Without any logic loopholes, all security issues can be eliminated. SideMenu's security catagory only gets 7. After all, SideMenu is only a framework. It does nothing with users's data or privacy. SideMenu also needs not to connect database. So in some way, security is not significant for SideMenu.
 
 ###### Error Prone
 
