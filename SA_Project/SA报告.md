@@ -198,7 +198,7 @@ From this data, we can easily know that only a little files are complex. Most of
 #### 4.Issues Breakdown
 ![result_2](https://github.com/280224963/SideMenu-/blob/master/picture/result1.png)
 
-In this aspect, the project is brokendown in 6 parst. 
+In this aspect, the project is brokendown in 6 parts. 
 
 ###### Security
 As the Internet penetrates into all walks of life, more and more application systems, websites, etc. are connected and accessed by humans through the Internet. How to ensure that the system and website will not cause security problems such as system crash and data leakage due to malicious attacks by hackers. The most fundamental means to solve this problem is to return to the code. Only the code written is safe and impeccable. Without any logic loopholes, all security issues can be eliminated. SideMenu's security catagory only gets 7. After all, SideMenu is only a framework. It does nothing with users's data or privacy. SideMenu also needs not to connect database. So in some way, security is not significant for SideMenu.
@@ -213,9 +213,10 @@ Although the code style is not as easy to fry as a technical circle, it is not a
 Compatibility refers to the degree of coordination between hardware, software, or a combination of hardware and software. Since SideMenu is implemented in Swift. So unluckily, SideMenu is not for Antroid users. As for IOS user, this is a good choice. But at first, the iOS need to be X or above. You use Xcode to be the compiler and the version should be above 9. When all the requirements are satisfied, you can easily import SideMenu in your project. Obviously, SideMenu just as the figure shown, has good compatibility for IOS user who needs SideMenu.
 
 ###### Unused Code
+Unused Code, we can regard as dead code. At first, when the result gives out, it shows like the SideMenu has lots of unused code. But when I click "show details", I found that Codacy think 'import' and dependency as unused code. Maybe that is the shortcome of the tools I use. Review the details except code mentioned above , unused code reduced 70%. In code quality, SideMeNu doen't have many unused code. In this aspect, its code quality is good. 
 
 ###### Performance
-
+There are only 2 issues about performance. In my opinion, SideMenu is a private project, so it There will be no special personnel to maintain and update it, and as a sidebar menu, there will be no relevant security detection or protection. Compared to other industrial projects, the sidebar menu is very simple, its role is only limited to the sliding in and out of the scene, so it is not significant in terms of performance. But through the examples provided by the author, I have to admit that SideMenu is very convenient....
 
 ## Conclusion
 
