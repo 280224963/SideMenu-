@@ -106,12 +106,10 @@ Figure 3: use case view of SlideMenu
 
 Logical view is mainly the abstract structure of the whole system. It pays attention to the function of the system which is provided to the end user. It does not involve specific compilation, output or deployment. It is usually expressed in UML by class diagram, interaction diagram and sequence diagram. Figure 5.1 shows the class diagram of this program. There are four main class in this program and an important protocol named UISideMenuNavigationControllerDelegate which is used to receive massage from the user and send it to UISideMenuNavigationController to give feedback.  
 ![use_case](https://github.com/280224963/SideMenu-/blob/master/picture/logical_1.png)
-
 Figure 5.1 class diagram
 
 And the sequence diagram shows how this sidemenu works with the app. The user open the app while UISideMenuNavigationController create the menu, and there are several kinds of action, for example, slide in, slide out, dissolve, slide in+out which will be caught by UISideMenuNavigationControllerDelegate and finish the move.
 ![use_case](https://github.com/280224963/SideMenu-/blob/master/picture/logical_2.png)
-
 Figure 5.2 sequence diagram
 
 
