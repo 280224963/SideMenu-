@@ -197,11 +197,13 @@ In this aspect, the project is brokendown in 6 parst.
 As the Internet penetrates into all walks of life, more and more application systems, websites, etc. are connected and accessed by humans through the Internet. How to ensure that the system and website will not cause security problems such as system crash and data leakage due to malicious attacks by hackers. The most fundamental means to solve this problem is to return to the code. Only the code written is safe and impeccable. Without any logic loopholes, all security issues can be eliminated. SideMenu's security catagory only gets 7. After all, SideMenu is only a framework. It does nothing with users's data or privacy. SideMenu also needs not to connect database. So in some way, security is not significant for SideMenu.
 
 ###### Error Prone
+Using Error Prone to augment the compiler’s type analysis, you can catch more mistakes before they cost you time, or end up as bugs in production. Most of the issues have use error prone to avoid later error in usage. This guarantee less error to take place when user import SideMenu in their own project. This helps the project be stable.
 
 ###### Code Style
+Although the code style is not as easy to fry as a technical circle, it is not as easy to stand as a programming language or editor, but there are always people who have a unified style to improve work efficiency. If code styles are different, it is not conducive to collaborative programming, the code is also chaotic. As for similar code style, this produce a certain constraint. Functional importance, code style and post-maintenance are also important. As we know, SideMenu can be seen as a private project, It is nearly implemented by one person. SideMenu's code style is not diverse.
 
 ###### Compatibility
-
+Compatibility refers to the degree of coordination between hardware, software, or a combination of hardware and software. Since SideMenu is implemented in Swift. So unluckily, SideMenu is not for Antroid users. 
 ###### Unused Code
 
 ###### Performance
