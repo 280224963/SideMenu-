@@ -183,8 +183,10 @@ We use Codacy to analyse the code.Codacy contains almost all the features you ne
 #### 3.Analysis
 Use Codacy, we get the following figure. The result is shown below:
 
-![result_1](https://github.com/280224963/SideMenu-/blob/master/picture/result1.png)
-![result_2](https://github.com/280224963/SideMenu-/blob/master/picture/result2.png)
+![result_1](https://github.com/280224963/SideMenu-/blob/master/picture/result2.png)
+
+
+![result_2](https://github.com/280224963/SideMenu-/blob/master/picture/result1.png)
 
 
 ## Conclusion
