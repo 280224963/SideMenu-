@@ -104,11 +104,17 @@ Figure 3: use case view of SlideMenu
 
 ## Logic view
 
-Logical view is mainly the abstract structure of the whole system. It pays attention to the function of the system which is provided to the end user. It does not involve specific compilation, output or deployment. It is usually expressed in UML by class diagram, interaction diagram and sequence diagram. Figure 5.1 shows the class diagram of this program. There are four main class in this program and an important protocol named UISideMenuNavigationControllerDelegate which is used to receive massage from the user and send it to UISideMenuNavigationController to give feedback.  
+Logical view is mainly the abstract structure of the whole system. It pays attention to the function of the system which is provided to the end user. It does not involve specific compilation, output or deployment. It is usually expressed in UML by class diagram, interaction diagram and sequence diagram. Figure 5.1 shows the class diagram of this program. There are four main class in this program and an important protocol named UISideMenuNavigationControllerDelegate which is used To receive notifications when a menu is displayed from a view controller which is adhered to the UISideMenuNavigationControllerDelegate protocol: and send the notifications to UISideMenuNavigationController to give feedback.  
+The SideMenuManager class is the class of an instance of sidemenu which defines the many attributes of a sidemenu, for example, the menuWidth, the present mode which has four modes—slide in, slide out, slideInOut and dissolve in, the six modes in push style which are defaultBehavior, popWhenPossible, preserve, preserveAndHideBackButton, replace and submenu.
+UISideMenuNavigationController supports four customizations and properties: 
+	A SideMenuManager instance associated with this menu. Default is `SideMenuManager.default`.  This property cannot be changed after the menu has loaded.
+	Width of the menu when presented on screen, showing the existing view controller in the remaining space. Default is zero. When zero, `sideMenuManager.menuWidth` is used. This property cannot be changed while the isHidden property is false.
+	Whether the menu appears on the right or left side of the screen. Right is the default. This property cannot be changed after the menu has loaded.
+	Indicates if the menu is anywhere in the view hierarchy, even if covered by another view controller.  
 ![use_case](https://github.com/280224963/SideMenu-/blob/master/picture/logical_1.png)
 Figure 5.1 class diagram
 
-And the sequence diagram shows how this sidemenu works with the app. The user open the app while UISideMenuNavigationController create the menu, and there are several kinds of action, for example, slide in, slide out, dissolve, slide in+out which will be caught by UISideMenuNavigationControllerDelegate and finish the move.
+And the sequence diagram shows how this sidemenu works with the app. The user open the app while UISideMenuNavigationController create the menu, and there are several kinds of action, for example, slide in, slide out, dissolve, slide in+out which will be caught by UISideMenuNavigationControllerDelegate and finish the move. When the user press a button, the ControllerDelegate would receive the notification and make the corresponding response. For example, if the user slide in a menu then the function sideMenuWillAppear which will be followed by a appearance of a new menu and before that a hint: "SideMenu Appearing! (animated: \(animated))" will be showed somewhere. It works like that. And if setting the sideMenuDelegate property on UISideMenuNavigationController is optional. If your view controller adheres to the protocol then the methods will be called automatically.
 ![use_case](https://github.com/280224963/SideMenu-/blob/master/picture/logical_2.png)
 Figure 5.2 sequence diagram
 
