@@ -177,6 +177,15 @@ Technical debt is a well-known concept that was introduced in 1992 by Ward Cunni
 
 In this metaphor, we set up a technical debt through a temporary emergency, which is similar to economic debt. Just like economic debt, technical debt is also subject to interest. It exists in our future development. Because we choose temporary emergency measures, at some point, we will pay some form of extra cost. We can choose to continue to pay interest, or we can choose to repay the principal and reconcile the principal to get a better design. Although it paid off the principal on the spot, it allowed us to reduce interest payments in the future.
 
+#### 2.Tools
+We use Codacy to analyse the code.Codacy contains almost all the features you need. Such as free installation, support for multiple languages, only focus on new issues in the submitted version, enterprise-level security, notifications when new issues are discovered, security and performance checks, configuration files for all projects, cloud or presets Version, code coverage, thousands of rules, analysis of different branches, flexible customization, code repetition rate, agitator/complexity, neglecting irrelevant issues, keeping analysis results concise, estimating time to fix problems, project statistics, in GH/ Automatically annotate PR on BB/GL, document each issue, manage user roles and permissions, and set goals to help fix technical debt.
+
+#### 3.Analysis
+Use Codacy, we get the following figure. The result is shown below:
+
+![result_1](https://github.com/280224963/SideMenu-/blob/master/picture/result1.png)
+![result_2](https://github.com/280224963/SideMenu-/blob/master/picture/result2.png)
+
 
 ## Conclusion
 
