@@ -96,11 +96,16 @@ It is implemented by Swift. So if you want use SideMenu in your own app you have
 Xcode also needs to be 9. It use Cocospods and Carthage to help manage the dependency library. You can use git to learn the source code and chat with the developer. And it is mainly developed for personal users. It can be a good choice if you want SideMenu in your small app. This can also be a good learning resource for students
 
 ## Use case view
+
+SideMenu can be implemented in storyboard without a single line of code. First of all, if the app developer wants to use this side menu, the step is extremely simple. He will only need to install CocoaPods and Carthage and do some other easy options by creating a Navigation Controller for a side menu. The figure 4.1 showed below tells what an app developer can do. He can create views as he want. You first have to create a Root View Controller for the Navigation Controller (shown as a UITableViewController) and then you can set up any Triggered Segues you want in that view controller. Very importantly, add an UIButton or UIBarButton to a view controller that you want to display the menu from.
+
 ![use_case](https://github.com/280224963/SideMenu-/blob/master/picture/use_case1.png)
+Figure 4.1 use case view of SlideMenu
+
+As you can see from the figure 4.2, the SideMenuManager is the most important class in this program. Once the user press the corresponding button, the exactly view will be showed. For example, if the user want to slide in a new view, a viewController will be created and the sidemenuManager will do the corresponding respond to the viewController. The user can make a view presents and he can also make a view dismiss, so as long as the button is code for a function, the view controller connected to it will follow the procedure and make a view do the things it should do.
 
 ![use_case](https://github.com/280224963/SideMenu-/blob/master/picture/use_case2.png)
-
-Figure 3: use case view of SlideMenu
+Figure 4.2: use case view of SlideMenu
 
 ## Logic view
 
