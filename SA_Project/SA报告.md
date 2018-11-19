@@ -104,7 +104,8 @@ Figure 3: use case view of SlideMenu
 
 ## Logic view
 
-Logical view is mainly the abstract structure of the whole system. It pays attention to the function of the system which is provided to the end user. It does not involve specific compilation, output or deployment. It is usually expressed in UML by class diagram, interaction diagram and sequence diagram. Figure 5.1 shows the class diagram of this program. There are four main class in this program and an important protocol named UISideMenuNavigationControllerDelegate which is used To receive notifications when a menu is displayed from a view controller which is adhered to the UISideMenuNavigationControllerDelegate protocol: and send the notifications to UISideMenuNavigationController to give feedback.  
+Logical view is mainly the abstract structure of the whole system. It pays attention to the function of the system which is provided to the end user. It does not involve specific compilation, output or deployment. It is usually expressed in UML by class diagram, interaction diagram and sequence diagram. Figure 5.1 shows the class diagram of this program.
+There are four main class in this program and an important protocol named UISideMenuNavigationControllerDelegate which is used To receive notifications when a menu is displayed from a view controller which is adhered to the UISideMenuNavigationControllerDelegate protocol: and send the notifications to UISideMenuNavigationController to give feedback.  
 The SideMenuManager class is the class of an instance of sidemenu which defines the many attributes of a sidemenu, for example, the menuWidth, the present mode which has four modes—slide in, slide out, slideInOut and dissolve in, the six modes in push style which are defaultBehavior, popWhenPossible, preserve, preserveAndHideBackButton, replace and submenu.
 UISideMenuNavigationController supports four customizations and properties: 
 
