@@ -124,6 +124,52 @@ Figure 5.2 sequence diagram
 
 
 ## Development view
+### 4.1 Design Discipline
+Sidemenu is an open-source Swift library. It is so small but useful when you need a sidemenu in your IOS project. It can be use without complex codes, which makes it easier to use, and you don’t need to study it for a long time. In addition, as it is an open-source library, we can change the effects easily.
+#### Composition
+Sidemenu is a small library that the key codes is the swift files in Pld/Classes. That makes it easy to read, and you can even change it by yourself just by reading a few codes, and it is important that it will not cause the errors in your project.
+#### Stability
+You can follow the README.md to install and use by code-less storyboard or customize in SideMenuManager, UISideMenuNavigationController and UISideMenuNavigationControllerDelegate. If you follow the guide, it will not cause any instability.
+#### Interoperability
+Anyone can install easily just to use cocoapods and carthage, and any IOS projects can use them by following the README.md, because of that it is just a small tool and it is flexible, so the interoperability is obvious.
+
+### 4.2 Source Code Structure
+The figure shows the structure of the SideMenu:
+![Code](https://github.com/280224963/SideMenu-/blob/master/picture/Code.png)
+
+### Functionality
+Main functions are designed in the Pod/classes and where you can change the effects is in the folder.
+In SideMenuManager, you can customize the effects. Just type SideMenuManager.default.menu... and code completion will show you everything you can customize (for Objective-C, use SideMenuManager.defaultManager.menu...). Defaults values are shown below for reference.
+In UISideMenuNavigationController, it supports the following customizations and properties: SideMenuManager instance associated with this menu. Width of the menu when presented on screen, showing the existing view controller in the remaining space. Whether the menu appears on the right or left side of the screen. Right is the default. Indicates if the menu is anywhere in the view hierarchy.
+In UISideMenuNavigationControllerDelegate, To receive notifications when a menu is displayed from a view controller, have it adhere to the UISideMenuNavigationControllerDelegate protocol.
+Example and ExampleTest folders are designed to show the sample effects.
+Pods are something get from CocoaPods.
+ect are the pictures to show the library.
+
+### 4.3 Design Patterns
+This section discusses some of the design patterns used in SideMenu.
+
+#### Singleton Pattern
+The singleton pattern that you can use the SideMenu, and only one object. So that makes it easier to use the SideMenu.
+
+#### Least Knowledge Principle(Law Of Demeter)
+That means the SideMenu object just affect itself, like the activity to show, the effects, ect. And you can change it needless to consider about others.
+
+#### Extensibility
+The SideMenu is easily to change, you can customize it by modifying the classes like UISideMenuNavigationController, SideMenuManager, UISideMenuNavigation-ControllerDelegate, etc.
+
+#### Easy to understand
+The premise of its reliability and modifiable ability is the comprehensibility of software. It is not only a clear and readable document, but also requires a simple and clear structure of the software itself. This largely depends on the designer's insight and creativity, as well as the thoroughness of the design object, of course, it also depends on the appropriate use of design tools and methods.
+
+#### Single Responsibility Principle
+The Single Responsibility Principle states that a class should only have a single responsibility. In SideMenu, SideMenuManager is designed just for the style of the menu, UISideMenu-NavigationController is for some global attributions. UISideMenuNavigation-ControllerDelegate is for the call-back about some events.
+
+#### Open/Closed Principle
+The Open/Closed Principle states that software entities should be open for extension, but
+closed for modification. In SideMenu, we can use the SideMenu without codes, and the interface is so clearly that it is open for extension, and it is no use to modify the core codes.
+
+### 4.4 Module Structure
+![Module](https://github.com/280224963/SideMenu-/blob/master/picture/Module.png)
 
 ...
 
