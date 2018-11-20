@@ -1,7 +1,7 @@
 SlideMenu 
 ========== 
 
-![temporary_logo](https://github.com/280224963/SideMenu-/tree/master/picture/temporary_logo.png)
+![temporary_logo](https://github.com/280224963/SideMenu-/blob/master/picture/temporary_logo.png)
 -------------
 
 ## Abstract
@@ -33,7 +33,7 @@ The SlideMenu is based on Swift 4.2 and uses Xcode 10 and needs to run on iOS 10
 
 #### 2.History
 
-![history](https://github.com/280224963/SideMenu-/tree/master/picture/history.png)
+![history](https://github.com/280224963/SideMenu-/blob/master/picture/history.png)
 
 #### 3.Preview Samples
 | Slide Out | Slide In | Dissolve | Slide In + Out |
@@ -71,7 +71,7 @@ We will describe a number of different types of stakeholders exist as defined by
 
 The stakeholders are visualized in Table1 and Table 2, their respective power and interest in the SlideMenu project are shown in Figure 1.
 
-![power_interest](https://github.com/280224963/SideMenu-/tree/master/picture/power_interest_pic.png)
+![power_interest](https://github.com/280224963/SideMenu-/blob/master/picture/power_interest_pic.png)
 
 Figure 1: Power-Interest grid for the stakeholders of SlideMenu
 
@@ -85,7 +85,7 @@ the boundaries of the system and how it interacts with external entities across 
 
 
 
-![context_view](https://github.com/280224963/SideMenu-/tree/master/picture/context_view.png)
+![context_view](https://github.com/280224963/SideMenu-/blob/master/picture/context_view.png)
 
 Figure 2: context view of SlideMenu
 
@@ -99,13 +99,13 @@ Xcode also needs to be 9. It use Cocospods and Carthage to help manage the depen
 
 Use case diagrams showed below describe the system functions understood by the participants. The main elements are the use cases and participants. They help the development team understand the system's functional requirements in a visual way. And this program--SideMenu can be implemented in storyboard without a single line of code. First of all, if the app developer wants to use this side menu, the step is extremely simple. He will only need to install CocoaPods and Carthage and do some other easy options by creating a Navigation Controller for a side menu. The figure 4.1 showed below tells what an app developer can do. He can create views as he want. You first have to create a Root View Controller for the Navigation Controller (shown as a UITableViewController) and then you can set up any Triggered Segues you want in that view controller. Very importantly, add an UIButton or UIBarButton to a view controller that you want to display the menu from.
 
-![use_case](https://github.com/280224963/SideMenu-/tree/master/picture/use_case1.png)
+![use_case](https://github.com/280224963/SideMenu-/blob/master/picture/use_case1.png)
 
 Figure 4.1 use case view of SlideMenu
 
 As you can see from the figure 4.2, the SideMenuManager is the most important class in this program. Once the user press the corresponding button, the exactly view will be showed. For example, if the user want to slide in a new view, a viewController will be created and the sidemenuManager will do the corresponding respond to the viewController. The user can make a view presents and he can also make a view dismiss, so as long as the button is code for a function, the view controller connected to it will follow the procedure and make a view do the things it should do.
 
-![use_case](https://github.com/280224963/SideMenu-/tree/master/picture/use_case2.png)
+![use_case](https://github.com/280224963/SideMenu-/blob/master/picture/use_case2.png)
 
 Figure 4.2: use case view of SlideMenu
 
@@ -123,11 +123,11 @@ UISideMenuNavigationController supports four customizations and properties:
 3.Whether the menu appears on the right or left side of the screen. Right is the default. This property cannot be changed after the menu has loaded.
 
 4.Indicates if the menu is anywhere in the view hierarchy, even if covered by another view controller.  
-![use_case](https://github.com/280224963/SideMenu-/tree/master/picture/logical_1.png)
+![use_case](https://github.com/280224963/SideMenu-/blob/master/picture/logical_1.png)
 Figure 5.1 class diagram
 
 And the sequence diagram shows how this sidemenu works with the app. The user open the app while UISideMenuNavigationController create the menu, and there are several kinds of action, for example, slide in, slide out, dissolve, slide in+out which will be caught by UISideMenuNavigationControllerDelegate and finish the move. When the user press a button, the ControllerDelegate would receive the notification and make the corresponding response. For example, if the user slide in a menu then the function sideMenuWillAppear which will be followed by a appearance of a new menu and before that a hint: "SideMenu Appearing! (animated: \(animated))" will be showed somewhere. It works like that. And if setting the sideMenuDelegate property on UISideMenuNavigationController is optional. If your view controller adheres to the protocol then the methods will be called automatically.
-![use_case](https://github.com/280224963/SideMenu-/tree/master/picture/logical_2.png)
+![use_case](https://github.com/280224963/SideMenu-/blob/master/picture/logical_2.png)
 Figure 5.2 sequence diagram
 
 
@@ -143,7 +143,7 @@ Anyone can install easily just to use cocoapods and carthage, and any IOS projec
 
 ### 4.2 Source Code Structure
 The figure shows the structure of the SideMenu:
-![Code](https://github.com/280224963/SideMenu-/tree/master/picture/Code.png)
+![Code](https://github.com/280224963/SideMenu-/blob/master/picture/Code.png)
 
 ### Functionality
 Main functions are designed in the Pod/classes and where you can change the effects is in the folder.
@@ -177,7 +177,7 @@ The Open/Closed Principle states that software entities should be open for exten
 closed for modification. In SideMenu, we can use the SideMenu without codes, and the interface is so clearly that it is open for extension, and it is no use to modify the core codes.
 
 ### 4.4 Module Structure
-![Module](https://github.com/280224963/SideMenu-/tree/master/picture/Module.png)
+![Module](https://github.com/280224963/SideMenu-/blob/master/picture/Module.png)
 
 ...
 
@@ -191,7 +191,7 @@ SlideMenu updates their current version number according to the semantic version
 
 The first type has occurred five times in the history of SlideMenu. The latter on the other hand, has an average frequency between 2-3 weeks.
 
-![ep_release](https://github.com/280224963/SideMenu-/tree/master/picture/ep_release.png)
+![ep_release](https://github.com/280224963/SideMenu-/blob/master/picture/ep_release.png)
 
 Figure4: gives an overview of SlideMenu and mentions the changes with the largest magnitude of change.
 
@@ -254,13 +254,13 @@ We use Codacy to analyse the code.Codacy contains almost all the features you ne
 #### 3.Analysis
 Use Codacy, we get the following figure. The result is shown below:
 
-![result_1](https://github.com/280224963/SideMenu-/tree/master/picture/result2.png)
+![result_1](https://github.com/280224963/SideMenu-/blob/master/picture/result2.png)
 
 From the figure, the project certification is B. It analyses the project through 3 aspects. They are issues, complex Files and Duplicated code. Issues means the comparison of the number of the issues with the industry average. It gets 90% at this part. In this piece, SideMenu has basically reached the industrial level. Complex Files means a file is over 20. The percentage is about 13%.
 From this data, we can easily know that only a little files are complex. Most of them is simple. Similarly, the project is also a simple project. Duplicated code means a file has at least 1 clone. 26% ， in my opinion， is a little high. The code is reused much. In some way, this phenomenon is not good for a project.
 
 #### 4.Issues Breakdown
-![result_2](https://github.com/280224963/SideMenu-/tree/master/picture/result1.png)
+![result_2](https://github.com/280224963/SideMenu-/blob/master/picture/result1.png)
 
 In this aspect, the project is brokendown in 6 parts. 
 
