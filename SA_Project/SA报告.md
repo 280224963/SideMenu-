@@ -35,6 +35,8 @@ The SlideMenu is based on Swift 4.2 and uses Xcode 10 and needs to run on iOS 10
 
 ![history](https://github.com/280224963/SideMenu-/blob/master/picture/history.png)
 
+Figure 1.1: history of SlideMenu.
+
 #### 3.Preview Samples
 | Slide Out | Slide In | Dissolve | Slide In + Out |
 | --- | --- | --- | --- |
@@ -58,7 +60,7 @@ We will describe a number of different types of stakeholders exist as defined by
  Ultimate user |	app users
  competitors |	-
  
- Table 1: Stakeholders of the SlideMenu project
+ Table 2.1: Stakeholders of the SlideMenu project
  
  Contributor | Commits | LOC++ | LOC-- | Active during 
  ----|----|----|----|----
@@ -67,13 +69,13 @@ We will describe a number of different types of stakeholders exist as defined by
  Soheil | 5 | 3,503 | 4,841 | 2016
  ... | | | |
  
- Table2:Most active contributors in terms of number of commits
+ Table 2.2:Most active contributors in terms of number of commits
 
-The stakeholders are visualized in Table1 and Table 2, their respective power and interest in the SlideMenu project are shown in Figure 1.
+The stakeholders are visualized in Table1 and Table 2, their respective power and interest in the SlideMenu project are shown in Figure 2.1.
 
 ![power_interest](https://github.com/280224963/SideMenu-/blob/master/picture/power_interest_pic.png)
 
-Figure 1: Power-Interest grid for the stakeholders of SlideMenu
+Figure 2.1: Power-Interest grid for the stakeholders of SlideMenu
 
 In the stakeholder analysis, many different actors with different roles, power and interest have been analyzed and visualized in Figure 1. Since SlideMenu is a personal developed control unit,The main stakeholder of SlideMenu is the developer Jon Kent who has the most power and interest in the platform. Since SlideMenu is built upon Swift and Xcode, these programming languages can be seen as more powerful actors than other suppliers, having very little interest. The developers, testers and maintainers can be placed in the middle of the spectrum, all with some power and interest.
 
@@ -87,7 +89,7 @@ the boundaries of the system and how it interacts with external entities across 
 
 ![context_view](https://github.com/280224963/SideMenu-/blob/master/picture/context_view.png)
 
-Figure 2: context view of SlideMenu
+Figure 3.1: context view of SlideMenu
 
 From the above figure, we can easily know about the eviroment.
 SideMenu is mainly developed by Jon Kent and Sohei.B.Marvasti. 
@@ -124,15 +126,17 @@ UISideMenuNavigationController supports four customizations and properties:
 
 4.Indicates if the menu is anywhere in the view hierarchy, even if covered by another view controller.  
 ![use_case](https://github.com/280224963/SideMenu-/blob/master/picture/logical_1.png)
+
 Figure 5.1 class diagram
 
 And the sequence diagram shows how this sidemenu works with the app. The user open the app while UISideMenuNavigationController create the menu, and there are several kinds of action, for example, slide in, slide out, dissolve, slide in+out which will be caught by UISideMenuNavigationControllerDelegate and finish the move. When the user press a button, the ControllerDelegate would receive the notification and make the corresponding response. For example, if the user slide in a menu then the function sideMenuWillAppear which will be followed by a appearance of a new menu and before that a hint: "SideMenu Appearing! (animated: \(animated))" will be showed somewhere. It works like that. And if setting the sideMenuDelegate property on UISideMenuNavigationController is optional. If your view controller adheres to the protocol then the methods will be called automatically.
 ![use_case](https://github.com/280224963/SideMenu-/blob/master/picture/logical_2.png)
+
 Figure 5.2 sequence diagram
 
 
 ## Development view
-### 4.1 Design Discipline
+### 6.1 Design Discipline
 Sidemenu is an open-source Swift library. It is so small but useful when you need a sidemenu in your IOS project. It can be use without complex codes, which makes it easier to use, and you don’t need to study it for a long time. In addition, as it is an open-source library, we can change the effects easily.
 #### Composition
 Sidemenu is a small library that the key codes is the swift files in Pld/Classes. That makes it easy to read, and you can even change it by yourself just by reading a few codes, and it is important that it will not cause the errors in your project.
@@ -141,7 +145,7 @@ You can follow the README.md to install and use by code-less storyboard or custo
 #### Interoperability
 Anyone can install easily just to use cocoapods and carthage, and any IOS projects can use them by following the README.md, because of that it is just a small tool and it is flexible, so the interoperability is obvious.
 
-### 4.2 Source Code Structure
+### 6.2 Source Code Structure
 The figure shows the structure of the SideMenu:
 ![Code](https://github.com/280224963/SideMenu-/blob/master/picture/Code.png)
 
@@ -154,7 +158,7 @@ Example and ExampleTest folders are designed to show the sample effects.
 Pods are something get from CocoaPods.
 ect are the pictures to show the library.
 
-### 4.3 Design Patterns
+### 6.3 Design Patterns
 This section discusses some of the design patterns used in SideMenu.
 
 #### Singleton Pattern
@@ -176,9 +180,10 @@ The Single Responsibility Principle states that a class should only have a singl
 The Open/Closed Principle states that software entities should be open for extension, but
 closed for modification. In SideMenu, we can use the SideMenu without codes, and the interface is so clearly that it is open for extension, and it is no use to modify the core codes.
 
-### 4.4 Module Structure
+### 6.4 Module Structure
 ![Module](https://github.com/280224963/SideMenu-/blob/master/picture/Module.png)
 
+Figure 6.1: Module Structure of SlideMenu
 ...
 
 ## Evolution Perspective
@@ -193,7 +198,7 @@ The first type has occurred five times in the history of SlideMenu. The latter o
 
 ![ep_release](https://github.com/280224963/SideMenu-/blob/master/picture/ep_release.png)
 
-Figure4: gives an overview of SlideMenu and mentions the changes with the largest magnitude of change.
+Figure 7.1: gives an overview of SlideMenu and mentions the changes with the largest magnitude of change.
 
 
 #### Gesture:
@@ -256,11 +261,15 @@ Use Codacy, we get the following figure. The result is shown below:
 
 ![result_1](https://github.com/280224963/SideMenu-/blob/master/picture/result2.png)
 
+Figure 8.1: Result from Codacy
+
 From the figure, the project certification is B. It analyses the project through 3 aspects. They are issues, complex Files and Duplicated code. Issues means the comparison of the number of the issues with the industry average. It gets 90% at this part. In this piece, SideMenu has basically reached the industrial level. Complex Files means a file is over 20. The percentage is about 13%.
 From this data, we can easily know that only a little files are complex. Most of them is simple. Similarly, the project is also a simple project. Duplicated code means a file has at least 1 clone. 26% ， in my opinion， is a little high. The code is reused much. In some way, this phenomenon is not good for a project.
 
 #### 4.Issues Breakdown
 ![result_2](https://github.com/280224963/SideMenu-/blob/master/picture/result1.png)
+
+Figure 8.2: Result
 
 In this aspect, the project is brokendown in 6 parts. 
 
