@@ -144,6 +144,15 @@ Sidemenu is a small library that the key codes is the swift files in Pld/Classes
 You can follow the README.md to install and use by code-less storyboard or customize in SideMenuManager, UISideMenuNavigationController and UISideMenuNavigationControllerDelegate. If you follow the guide, it will not cause any instability.
 #### Interoperability
 Anyone can install easily just to use cocoapods and carthage, and any IOS projects can use them by following the README.md, because of that it is just a small tool and it is flexible, so the interoperability is obvious.
+#### Modifiable
+The codes about the effects, the actions is modifiable, so you can customize what you want by modifying the codes
+Developer Experience
+It provides the developers with a simple way to add the sidemenu in their projects, and even without studying the source codes a lot.
+#### Implementation
+You have the way to implement it that it is a Code-less Storyboard Implementation. Set the Custom Class of the Navigation Controller to be UISideMenuNavigationController in the Identity Inspector. Set the Module to SideMenu (ignore this step if you've manually added SideMenu to your project). Create a Root View Controller for the Navigation Controller (shown as a UITableViewController below). Set up any Triggered Segues you want in that view controller. Then changing where to appear. In addition, you can DIY your own ways to modify it.
+#### Optimized for Tooling
+In order to make the points of interaction with the library highly visible, some commonly used APIs have verbose names, such as UISideMenuNavigation-Controller, UISideMenuNavigationControllerDelegate. That makes it easier to use the classes and the functions. More important, it is easier to search, and distinguish them so that the developer will not mix them up.
+
 
 ### 6.2 Source Code Structure
 The figure shows the structure of the SideMenu:
