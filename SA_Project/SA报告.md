@@ -6,7 +6,7 @@ SlideMenu
 
 ## Abstract
 
-(待完成
+Side menu is an important part in many programs. It provides directions to all functions of a software or webpage. Different styles of side menu can fit in different kinds of situations. And the design of a side menu should meet the requirements of users. This program is about a simple and versatile side menu control written in Swift which can be implemented in storyboard without a single line of code. This passage talks about the stakeholders, design view and other software architecture information of this side menu.
 
 
 ## Table of contents
