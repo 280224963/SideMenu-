@@ -302,7 +302,11 @@ There are only 2 issues about performance. In my opinion, SideMenu is a private 
 
 ## Conclusion
 
-(待完成
+Even though SideMenu is just a small frame, it still has a lot of things to learn with it. SideMenu is a widely used framework. Even all the apps now, have relation with the framework. And though the author just gives out a simple version. I think it has a long way to develop better.
+
+In this chapter, we have analysed the architecture of SideMenu from different viewpoints and perspectives. We learn a lot from the progress. First, we know that SideMenu helps switch from one scene to another scene by sliding in or out. It has many versions. Though,there are not many differences from each version. We analyse the stakeholder, logic view , Technical Debt and so on. Only when we finished the analyse could we know that SideMenu is truly a good framework. It is simple but useful. There is one thing we have to admit that we didn't fully understand the architeture through months of learning. We still have to learn more about it.
+
+It let us have a good command of Software Architecture. It is the precious experience we can't learn from the book. If possible, We hope that we can have more chances to analyse such frameworks or apps.
 ## Reference
 
 1. Nick Rozanski and Eoin Woods. Software Systems Architecture: Working with Stakeholders using Viewpoints and Perspectives. Addison-Wesley, 2012.
