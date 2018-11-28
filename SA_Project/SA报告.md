@@ -1,7 +1,7 @@
 SlideMenu 
 ========== 
 
-![temporary_logo](https://github.com/280224963/SideMenu-/blob/master/picture/temporary_logo.png)
+![logo](https://github.com/280224963/SideMenu-/blob/master/picture/logo.png)
 -------------
 
 ## Abstract
@@ -23,19 +23,19 @@ Side menu is an important part in many programs. It provides directions to all f
 
 ## Introduction
 
-#### 1.What is the SlideMenu
-SlideMenu is an open source implementation of a sliding menu animation effect posted on Github. 
+#### 1.What is the SideMenu
+SideMenu is an open source implementation of a sliding menu animation effect posted on Github. 
 Developing an ios application often involves designing side menus. SideMenu is a simple and versatile side menu control written in Swift. 
-There are numerous Slide Menu control available on the Internet, this one is more likely be included in apple application. 
+There are numerous Side Menu control available on the Internet, this one is more likely be included in apple application. 
 SideMenu is practically a frame that helps to switch from one scene to another scene by touching a button or sliding left or right.
 After importing the SideMenu package, developers don't need to write a lot of custom code, just a simple interface call, you can achieve a vivid animation sliding effect. 
-The SlideMenu is based on Swift 4.2 and uses Xcode 10 and needs to run on iOS 10 or higher.
+The SideMenu is based on Swift 4.2 and uses Xcode 10 and needs to run on iOS 10 or higher.
 
 #### 2.History
 
 ![history](https://github.com/280224963/SideMenu-/blob/master/picture/history.png)
 
-Figure 1.1: history of SlideMenu.
+Figure 1.1: history of SideMenu.
 
 #### 3.Preview Samples
 | Slide Out | Slide In | Dissolve | Slide In + Out |
@@ -43,7 +43,7 @@ Figure 1.1: history of SlideMenu.
 | ![](https://raw.githubusercontent.com/jonkykong/SideMenu/master/etc/SlideOut.gif) | ![](https://raw.githubusercontent.com/jonkykong/SideMenu/master/etc/SlideIn.gif) | ![](https://raw.githubusercontent.com/jonkykong/SideMenu/master/etc/Dissolve.gif) | ![](https://raw.githubusercontent.com/jonkykong/SideMenu/master/etc/InOut.gif) |
 
 ## StakeHolders
-We will describe a number of different types of stakeholders exist as defined by Rozanski & Woods [1] and relate our views of the classes in relation to the SlideMenu project. 
+We will describe a number of different types of stakeholders exist as defined by Rozanski & Woods [1] and relate our views of the classes in relation to the SideMenu project. 
 - Developers: Jon kent
 - Test and integration staff: Jon kent and Github.
 - Users：ios application developers
@@ -60,7 +60,7 @@ We will describe a number of different types of stakeholders exist as defined by
  Ultimate user |	app users
  competitors |	-
  
- Table 2.1: Stakeholders of the SlideMenu project
+ Table 2.1: Stakeholders of the SideMenu project
  
  Contributor | Commits | LOC++ | LOC-- | Active during 
  ----|----|----|----|----
@@ -71,13 +71,13 @@ We will describe a number of different types of stakeholders exist as defined by
  
  Table 2.2:Most active contributors in terms of number of commits
 
-The stakeholders are visualized in Table1 and Table 2, their respective power and interest in the SlideMenu project are shown in Figure 2.1.
+The stakeholders are visualized in Table1 and Table 2, their respective power and interest in the SideMenu project are shown in Figure 2.1.
 
 ![power_interest](https://github.com/280224963/SideMenu-/blob/master/picture/power_interest_pic.png)
 
-Figure 2.1: Power-Interest grid for the stakeholders of SlideMenu
+Figure 2.1: Power-Interest grid for the stakeholders of SideMenu
 
-In the stakeholder analysis, many different actors with different roles, power and interest have been analyzed and visualized in Figure 1. Since SlideMenu is a personal developed control unit,The main stakeholder of SlideMenu is the developer Jon Kent who has the most power and interest in the platform. Since SlideMenu is built upon Swift and Xcode, these programming languages can be seen as more powerful actors than other suppliers, having very little interest. The developers, testers and maintainers can be placed in the middle of the spectrum, all with some power and interest.
+In the stakeholder analysis, many different actors with different roles, power and interest have been analyzed and visualized in Figure 1. Since SideMenu is a personal developed control unit,The main stakeholder of SlideMenu is the developer Jon Kent who has the most power and interest in the platform. Since SideMenu is built upon Swift and Xcode, these programming languages can be seen as more powerful actors than other suppliers, having very little interest. The developers, testers and maintainers can be placed in the middle of the spectrum, all with some power and interest.
 
 
 ## Context view
@@ -198,32 +198,32 @@ Figure 6.1: Module Structure of SlideMenu
 ## Evolution Perspective
 The evolution perspective deals with concerns related to evolution during the lifetime of a system, it focuses on identifying the ability to be flexible in the face of inevitable change. As discussed by Rozanski and Woods, a flexible system should be able to deal with all possible types of changes that it may experience during its lifetime [1]. Therefore, the changes throughout the lifetime of the project are analyzed, and the mechanisms in place to provide flexibility are discussed. Although only few change occur in the SlideMenu, this is still closely relevant to it.
 
-Thought out the years, SlideMenu has evolved a lot. At this moment SlideMenu has 28 releases, which started with release 2.0.7 in December 2015 and the latest release 5.0.3 in November 2018. However the real first a few release can't be found on the Github repository
+Thought out the years, SideMenu has evolved a lot. At this moment SideMenu has 28 releases, which started with release 2.0.7 in December 2015 and the latest release 5.0.3 in November 2018. However the real first a few release can't be found on the Github repository
 anymore. This is probably because it was an alpha version and can not be put into use well. In order to understand the changes in the various releases, the release notes have been analyzed. These were found on the SlideMenu release page on Github.
 
-SlideMenu updates their current version number according to the semantic versioning convention. SlideMenu releases can be categorized into two main categories: major updates that symbolize a new backwards compatibility baseline, and new versions containing novel features and bug fixes.
+SideMenu updates their current version number according to the semantic versioning convention. SlideMenu releases can be categorized into two main categories: major updates that symbolize a new backwards compatibility baseline, and new versions containing novel features and bug fixes.
 
 The first type has occurred five times in the history of SlideMenu. The latter on the other hand, has an average frequency between 2-3 weeks.
 
 ![ep_release](https://github.com/280224963/SideMenu-/blob/master/picture/ep_release.png)
 
-Figure 7.1: gives an overview of SlideMenu and mentions the changes with the largest magnitude of change.
+Figure 7.1: gives an overview of SideMenu and mentions the changes with the largest magnitude of change.
 
 
 #### Gesture:
 As a mobile app control, gesture support is crucial. Jon Kent's initial changes focused on improving the support and optimization of various gestures and fixing some bugs that were not noticeable.
 
 #### Ui: 
-Although SlideMenu is only about the implementation of the effect, the specific ui design is defined by the user, but Jon Kent still allows for more optimized screen adaptation and some black border problems, making the use of SlideMenu easier.
+Although SideMenu is only about the implementation of the effect, the specific ui design is defined by the user, but Jon Kent still allows for more optimized screen adaptation and some black border problems, making the use of SlideMenu easier.
 
 #### Animation: 
 This part of the optimization is mainly implemented by other developers on github in 2017. Most of the time, the original animation effect is still used. In the optimization, the developer fixed some logic bugs in the animation call, achieving smoother, higher quality animations.
 
 #### Language: 
-SlideMenu is written in the swift language, and this part of the maintenance is basic maintenance. Whenever there is a new version of swift release developer upgrade to accommodate the new version of the swift language. Later upgrade also support for calling SlideMenu with Objective-C.
+SideMenu is written in the swift language, and this part of the maintenance is basic maintenance. Whenever there is a new version of swift release developer upgrade to accommodate the new version of the swift language. Later upgrade also support for calling SlideMenu with Objective-C.
 
 #### Use experience improvement：
-Jon kent has put a lot of effort into making the use of SlideMenu easier and more convenient, `SideMenuManager.default` serves as the primary instance as most projects will only need one menu across all screens. User can show a different SideMenu, such as from a modal view controller presented from a previous SideMenu, just by doing the following:
+Jon kent has put a lot of effort into making the use of SideMenu easier and more convenient, `SideMenuManager.default` serves as the primary instance as most projects will only need one menu across all screens. User can show a different SideMenu, such as from a modal view controller presented from a previous SideMenu, just by doing the following:
 1. Declare a variable containing the custom `SideMenuManager` instance. If one wants it to define it globally and configure it in his app delegate if menus will be used on multiple screens.
 ``` swift
 let customSideMenuManager = SideMenuManager()
