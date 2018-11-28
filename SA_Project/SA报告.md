@@ -1,4 +1,4 @@
-SlideMenu 
+SideMenu 
 ========== 
 
 ![logo](https://github.com/280224963/SideMenu-/blob/master/picture/logo.png)
